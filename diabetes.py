@@ -68,7 +68,7 @@ def lab():
         X_test = scaler.transform(X_test)
         
         # 모델 로드
-        model = keras.models.load_model('pima_model.keras')
+        model = keras.models.load_model('pima_model.h5')
         
         # evaluate model
         prediction = model.predict(X_test)

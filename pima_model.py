@@ -92,10 +92,10 @@ print(np.round(model.predict(X_new), 2))
 print("\nExporting Saved Models: ")
 
 # Keras 모델 저장
-model.save('pima_model.keras')
+model.save('pima_model.h5')
 
 # 모델 로드
-model = keras.models.load_model('pima_model.keras')
+model = keras.models.load_model('pima_model.h5')
 
 # Evaluate / Predict again after loading (optional check)
 X_new = X_test[:3]
