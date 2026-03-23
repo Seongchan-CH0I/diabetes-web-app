@@ -1,7 +1,10 @@
 flask
+flask-bootstrap5
+flask-wtf
 tensorflow-cpu==2.15.1
 scikit-learn
 numpy
 pandas
 gunicorn
 google-api-python-client
+python-dotenv
