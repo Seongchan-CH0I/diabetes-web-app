@@ -2,6 +2,7 @@ flask
 bootstrap-flask
 flask-wtf
 tensorflow-cpu==2.15.1
+keras==2.15.0
 scikit-learn
 numpy
 pandas
