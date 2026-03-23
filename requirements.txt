@@ -1,5 +1,5 @@
 flask
-flask-bootstrap5
+bootstrap-flask
 flask-wtf
 tensorflow-cpu==2.15.1
 scikit-learn
